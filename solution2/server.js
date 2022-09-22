@@ -6,7 +6,7 @@ prompt.start();
 const findLinksTest = async () => {
   const askForUrl = await prompt.get("enter url");
 
-  //validate askForUrl["enter url"] is a url. Validate string is url. (if not url throw error).
+  //Nice to have: validate askForUrl["enter url"] is a url. Validate string is url. (if not url throw error).
 
   let driver = await new Builder().forBrowser("chrome").build();
   try {
