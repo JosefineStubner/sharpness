@@ -8,4 +8,4 @@ Run the following instructions:
   
 Start browser and navigate to http://localhost:3000/  
 Press F12 to see console  
-Enter words in input fields and press Submit to generate result in console.  
+Enter words into the input fields and press Submit to generate result on page and true/false result in console.  

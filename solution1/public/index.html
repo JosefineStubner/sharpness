@@ -1,18 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-</head>
-<body>
-    <label for="word-one">Write us a word:</label>
-      <input type="text" id="word-one">
-    <label for="word-two">And another one:</label>
-      <input type="text" id="word-two">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="style.css" />
+
+    <title>Anagrams</title>
+  </head>
+  <body>
+    <h1>Welcome to Anagram Checker</h1>
+    
+    <div class="first-word">
+      <label for="word-one" class="label">Word number one:</label>
+      <input type="text" id="word-one" />
+    </div>
+    <div class="second-word">
+      <label for="word-two" class="label">Word number two:</label>
+      <input type="text" id="word-two" />
+    </div>
+
     <button id="anagram-button">Submit</button>
 
-  <script src="main.js"></script>
-</body>
+    <div id="is-anagram"></div>
+
+    <script src="main.js"></script>
+  </body>
 </html>

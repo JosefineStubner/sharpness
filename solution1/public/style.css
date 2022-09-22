@@ -1,0 +1,21 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(244, 244, 245);
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.label {
+  font-weight: 500;
+}
+
+.success {
+  color: rgb(12, 175, 12);
+}
+
+.fail {
+  color: red;
+}
